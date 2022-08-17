@@ -1,7 +1,8 @@
 # Joaodresco
   Tela de simulação de saques de um banco virtual
-  https://joaopedrotf.github.io/Joaodresco/
   
+  
+  Esse site foi desenvolvido na proposta de trabalho na materia de desenvolvimento web1 da professora Patricia Proença Para visualizar clique aqui https://joaopedrotf.github.io/Joaodresco/
   
   
  
