@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joaodresco</title>
+    <link rel="stylesheet" href="styleindex.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+</head>
+<body onload="carregar()">
+    <script src="script.js"></script>
+    <header>
+        <h1><img src="imagens/logo(1).png" alt="logo" id="logo">Bem vindo(a) ao Joaodresco!</h1> 
+        <div id="car"></div>
+        <h2>Para continuar entre com sua conta e senha.</h2> 
+    </header>
+    <main>
+        <form method="post">
+        <h3><label for="login">Login.</label> </h3>
+        <input type="text" placeholder="Conta" id="login" maxlength="6" minlength="6">
+        <input type="password" placeholder="Senha" id="senha"maxlength="6" minlength="6">
+        <input type="submit" value="Enviar" id="enviar" onclick="logar(); return false">
+        <input type="reset" value="Limpar">
+        <p id="esp">* Seu número de conta e senha deve possuir 6 digitos.</p>
+        </form>
+    </main>
+    <footer>
+        <p>Copyright ©</p>
+        <p>Criado por João Pedro Teixeira</p>
+    </footer>
+   
+
+</body>
+</html>

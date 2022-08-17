@@ -1,0 +1,88 @@
+@charset "UTF-8"; /* Coloca os acentos e glifos brasileiros*/
+@font-face {
+    font-family: 'bradesco'; /* Cria o nome da fonte*/
+    src: url(fonte/BradescoSans-Regular-web.ttf) format('opentype'); /* Importa a fonte baixada*/
+    font-weight: normal; /* defino o peso da fonte baixada*/
+}
+:root{ /* Define Variaveis no CSS*/
+    --cor1: rgb(188,49,140);
+    --cor2: rgb(218,55,87);
+    --cor3: rgb(237,99,121);
+}
+*{
+    margin: 0px; 
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to top, var(--cor1), var(--cor2));
+    color:white;
+}
+header{
+    font-family: 'bradesco', Arial, Helvetica, sans-serif;
+}
+h1{
+    margin:2px 2px 2px 10px;
+    font-size: 60px;
+    padding: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.295);
+}
+img#logo{
+    height: 60px;
+    width: 60px;
+    padding: 15px 15px 0px 15px;
+}
+h2{
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+    margin:20px;
+}
+h3#tit{
+    font-size: 30px;
+    margin:3px;
+}
+#esp{
+    font-size: 15px;
+}
+p#resultado{
+    font-size: 30px;
+}
+p#erro{
+    margin:10px;
+    color: yellow;
+}
+main{
+    width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+input{
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 30px;
+}
+form{
+    margin-bottom: 300px;
+}
+img#nota{
+    height: 50px;
+    width: 100px;
+}
+img#moeda{
+    height: 60px;
+    width: 70px;
+}
+#link{
+    text-decoration: none; 
+}
+footer{
+    
+    background-color: var(--cor1);
+    text-align: center;
+    padding: 5px;
+}

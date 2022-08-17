@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joaodresco</title>
+    <link rel="stylesheet" href="stylehome.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+</head>
+<body>
+    <script src="script.js"></script>
+    <header>
+        <h1><img src="imagens/logo(1).png" alt="logo" id="logo"> Joaodresco</h1>
+    </header>
+    <main>
+        <div id="res">
+        <h2>Bem vindo(a) ao sistema de saques do joaodresco!</h2>
+        <h3>Quanto você deseja sacar? </h3>
+        <form method="post">
+        <input type="number" name="value" id="value" min="10" max="2000" maxlength="4" required>
+        <input type="button" value="Sacar" id="send" onclick="sacar()" >
+        <input type="reset" value="Limpar">
+        <a href="index.html" id="link"><input type="button" value="Sair" id="btn" onclick="index.html"></a>
+        <p id="esp">* Valor mínimo R$ 10,00 e Máximo R$ 2.000,00.</p>
+        <p id="esp">* Saque moedas de R$1,00 dispónivel.</p>
+        </form>
+        </div>
+        
+    </main>
+
+    <footer>
+        <p>Copyright ©</p>
+        <p>Criado por João Pedro Teixeira</p>
+    </footer>
+        
+
+</body>
+</html>
